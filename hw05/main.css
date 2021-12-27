@@ -1,0 +1,35 @@
+#main {
+    border: 3px solid black;
+    border-radius: 12px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    position: relative;
+}
+
+.promoText::before {
+    position: absolute;
+    display: inline-block;
+    content: "";
+    margin-top: 30px;
+    border-top: 2px solid black;
+    width: 180px;
+}
+
+
+.tovar1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tovarItem {
+    display: flex;
+    justify-content: space-between;
+    width: 130px;
+}
+
+.tovarItem>div {
+    margin-left: -30px;
+}
